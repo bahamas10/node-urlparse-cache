@@ -8,10 +8,10 @@ Usage
 
 ``` js
 var urlparse = require('urlparse-cache');
-urlparse('http://daveeddy.com/?page=index');
+var parsed = urlparse('http://daveeddy.com/?page=index');
 // => same object as require('url').parse(<url>)
 
-urlparse('http://daveeddy.com/?page=index'); // cache hit
+var parsed2 = urlparse('http://daveeddy.com/?page=index'); // cache hit
 // => same object as above
 ```
 
