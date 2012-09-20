@@ -30,7 +30,7 @@ Parsing a URL 200,000 times with no cache using `require('url').parse(uri, true)
 Parsing a URL 200,000 times using this module to cache the result of `require('url').parse(uri, true)`
 
     $ time node benchmark/with-cache.js
-    Parsing "http://example.com/some/path?key=value&otherkey=othervalue#hash" for 200000 iterations (no cache)
+    Parsing "http://example.com/some/path?key=value&otherkey=othervalue#hash" for 200000 iterations (with cache)
 
     real    0m0.080s
     user    0m0.068s
