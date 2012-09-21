@@ -5,3 +5,5 @@ module.exports = function(url) {
   if (!cache[url]) cache[url] = parse(url, true);
   return cache[url];
 };
+
+module.exports.cache = cache;
