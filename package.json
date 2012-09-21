@@ -1,7 +1,7 @@
 {
   "name": "urlparse-cache",
   "description": "Parse a url string using Node's builtin module and cache the results",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "contributors": [],
   "repository": {
