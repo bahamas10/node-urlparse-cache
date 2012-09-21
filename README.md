@@ -43,6 +43,18 @@ The cache has no method for clearing out old keys/values, as the url->object
 mapping will never change, ie. same url in, same url object out.  This has the
 potential to get very large if you parse a lot of different urls.
 
+Functions
+---------
+
+### urlparse(uri)
+
+returns the result of `require('url').parse(uri, true)`, and caches it for future lookups
+
+### urlparse.cache
+
+The internal object used for caching.  This is useful for checking cache length, and clearing
+values if you choose to do so.
+
 Installation
 ------------
 
